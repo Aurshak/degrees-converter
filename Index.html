@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <script type="text/javascript" src="Script.js"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<h1 style="text-align: center; color: green; font-family: sans-serif">Converter</h1>
+<form name="tempForm" class="formPanel">
+    <label for="temp">Temperature:</label><br>
+    <input type="text" id="temp"><br>
+
+    <input type="radio" name="choice" value="fahrenheit" checked />Convert to Fahrenheit <br>
+    <input type="radio" name="choice" value="celsius">Convert to Celsius  <br>
+
+    <label for="resultField">Result: </label><br>
+    <input type="text" id="resultField"><br>
+
+    <input type="button" class="button" value="Convert" onclick="processForm()">
+</form>
+</body>
+</html>
